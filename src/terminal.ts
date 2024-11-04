@@ -16,5 +16,8 @@ export function printMessage(text: string) {
 			title,
 		});
 	});
-	console.log(result);
+	console.log(boxen(result, {
+		borderStyle: 'none',
+		padding: { left: 4 },
+	}));
 }
