@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec tsx src/index.ts"
+    "dev": "nodemon --exec tsx --env-file=.env src/index.ts"
   },
   "dependencies": {
     "@types/node": "^22.8.6",
